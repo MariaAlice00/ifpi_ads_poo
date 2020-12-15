@@ -1,11 +1,10 @@
 package questao07;
 
 public class Saudacao {    
-    String texto = "Bom dia";
-    String destinatario = "Maria";
+    String texto;
+    String destinatario;
     
-    public String obterSaudacao() {
-        String msg = texto + ", " + destinatario;
-        return msg;
+    String obterSaudacao() {
+        return texto + ", " + destinatario;
     }
 }
