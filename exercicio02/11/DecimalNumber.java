@@ -3,13 +3,11 @@ package questao11;
 public class DecimalNumber {
     double num;
     
-    public int exibirInteiro() {
-        int i = (int) num;
-        return i;
+    int exibirInteiro() {
+        return (int) num;
     }
     
-    public double exibirDecimal() {
-        double d = num % 1;
-        return d;
+    double exibirDecimal() {
+        return num - exibirInteiro();
     }
 }
