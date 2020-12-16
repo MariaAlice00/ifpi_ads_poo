@@ -1,0 +1,2 @@
+QUESTÃO 2
+Vai dar erro, pois a classe Hotel não foi criada para solicitar parâmetro.
