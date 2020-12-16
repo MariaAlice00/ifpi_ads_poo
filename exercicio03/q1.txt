@@ -1,0 +1,2 @@
+QUESTÃO 1
+Não, pois vai ser atribuído um valor automaticamente para a variável quantReservas.
