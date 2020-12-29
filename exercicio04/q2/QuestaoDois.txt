@@ -1,1 +1,0 @@
-Erro de compilação, pois não foi criado um tipo Conta.
