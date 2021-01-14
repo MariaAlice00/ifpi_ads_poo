@@ -9,7 +9,7 @@ public class Produto {
         this.quantidade += valor;
     }
 
-    public void darBaixa(){
+    public void darBaixa(int valor){
         this.quantidade -= valor;
     }
 }
