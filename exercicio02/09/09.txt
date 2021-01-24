@@ -1,0 +1,6 @@
+9. Compare as implementações da questão 6 e com a implementação das questões 7 e 8. Qual é a abordagem mais "estruturada" e qual a versão mais Orientada a Objetos? Qual a mais modularizada e reutilizável? Entretanto, qual a mais burocrática devido ao problema a ser resolvido?
+
+Mais estruturada: 6
+Mais Orientadas a Objetos: 7 e 8
+Mais modularizada e reutilizável: 7 e 8
+Mais burocrática: 7 e 8
