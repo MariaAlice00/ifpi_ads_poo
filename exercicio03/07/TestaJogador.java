@@ -11,7 +11,13 @@ public class TestaJogador {
 
         a.atacar(b); 
 
-        System.out.println(a.pontosAtuais);
-        System.out.println(b.pontosAtuais);
+        System.out.println("Jogador 1: " + a.pontosAtuais);
+        System.out.println("Jogador 2: " + b.pontosAtuais);
+
+        if (a.pontosAtuais > b.pontosAtuais) {
+            System.out.println(">>> Jogador 1 tem mais pontos.");
+        } else {
+            System.out.println(">>> Jogador 2 tem mais pontos.");
+        }
     }
 }
