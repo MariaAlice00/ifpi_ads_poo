@@ -4,9 +4,11 @@
 
 3 - O resultado é 0. O atributo t da classe Teste não foi inicializado antes, assim foi atribuído um valor automático pra ele.
 
-4 - No código colocado pela questão, há uma confusão na compreensão do código, pois atributo e parâmetro tem mesmo nome. Na solução é colocada a palavra reservada this (uma instância) que permite acessar os atributos da própria instância.
+4 - No código colocado pela questão, há uma confusão na compreensão do código, pois atributo e parâmetro tem mesmo nome. Na solução é colocada a palavra reservada this 
+(uma instância) que permite acessar os atributos da própria instância.
 
-5 - O erro acontence porque o construtor de Radio foi colocado para receber um parâmetro, porém na classe de teste (TestaRadio) quando ocorre a instaciação, não é colocado o parâmetro.
+5 - O erro acontence porque o construtor de Radio foi colocado para receber um parâmetro, porém na classe de teste (TestaRadio) quando ocorre a instaciação, não é colocado 
+o parâmetro.
 
 6 - 
 a) Ambos dão 90, pois é colocado que c1 é igual a c2;
