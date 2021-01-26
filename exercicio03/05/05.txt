@@ -1,0 +1,5 @@
+5 - Justifique o erro de compilação na classe TestaRadio e proponha uma solução.
+
+O erro acontence porque o construtor de Radio foi colocado para receber um parâmetro inteiro, porém na classe de teste (TestaRadio) quando ocorre a instaciação, não é colocado o parâmetro.
+
+PS: Solução nos códigos Radio e TestaRadio.
