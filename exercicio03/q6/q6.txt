@@ -1,3 +1,0 @@
-QUESTÃO 6
-a) Ambos dão 90.0, pois é colocado que c1 é igual a c2;
-b) Ele passa a ter o mesmo valor que sua referência;
