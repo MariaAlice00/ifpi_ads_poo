@@ -1,2 +1,0 @@
-QUESTÃO 3
-O resultado é 0. O atributo t da classe Teste não foi inicializado antes, assim foi atribuído um valor automático pra ele.
