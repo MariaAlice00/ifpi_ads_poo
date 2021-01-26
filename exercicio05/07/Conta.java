@@ -1,6 +1,6 @@
 public class Conta {
 	public String numero; // mudança da visibilidade de privada para pública, para conseguir implementar os métodos
-    private double saldo;
+    	private double saldo;
 	
 	public Conta(String numero, double valor) {
 		this.numero = numero;
