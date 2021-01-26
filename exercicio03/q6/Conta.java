@@ -1,26 +1,22 @@
 public class Conta {
     String num;
-    double saldo;
+    int saldo;
 
-    Conta(String num, double valor) {
+    Conta (String num, int saldo) {
         this.num = num;
-        this.saldo = valor;
+        this.saldo = saldo;
     }
 
-    void sacar(double valor) {
-        saldo -= valor;
+    public void sacar(int valor) {
+        saldo = saldo - valor;
     }
 
-    void depositar(double valor) {
-        saldo += valor;
+    public void depositar(int valor) {
+        saldo = saldo + valor;
     }
 
-    double consultarSaldo() {
-        return saldo;
-    }
-
-    void transferir(Conta destino, double valor) {
+    public void transferir(Conta c, int valor) {
         this.sacar(valor);
-        destino.depositar(valor);
+        c.depositar(valor);
     }
 }
