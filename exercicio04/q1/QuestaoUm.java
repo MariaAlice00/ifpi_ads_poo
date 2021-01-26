@@ -7,3 +7,5 @@ class QuestaoUm {
         }
     }
 }
+
+/* O código imprime de 0 a 4, quando chega no número 5 apresenta-se um erro, pois está acessando um índice inválido do array. */
