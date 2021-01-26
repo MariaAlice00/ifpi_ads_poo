@@ -8,3 +8,6 @@ class QuestaoDois {
         System.out.println(contas[0].saldo);    
     }
 }
+
+/*O código cria um espaço para armazenar 5 contas, porém, atualmente elas não referenciam nada. Os objetos devem ser inicialmente instanciados e só depois atribuídos 
+às referências do array.*/
