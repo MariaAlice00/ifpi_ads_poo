@@ -1,0 +1,5 @@
+1 - Não haverá problemas de compilação, pois vai ser atribuído um valor automaticamente para a variável quantReservas.
+
+2 - Vai dar erro, pois a classe Hotel não foi criada para solicitar parâmetro. O construtor Hotel está indefinido. 
+
+3 - O resultado é 0. O atributo t da classe Teste não foi inicializado antes, assim foi atribuído um valor automático pra ele.
