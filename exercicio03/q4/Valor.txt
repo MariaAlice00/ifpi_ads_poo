@@ -1,3 +1,0 @@
-QUESTÃO 4
-Há uma confusão na compreensão do código, pois atributo e parâmetro tem mesmo nome. A palavra reservada this (uma instância) permite acessar os atributos da propria 
-instância.
