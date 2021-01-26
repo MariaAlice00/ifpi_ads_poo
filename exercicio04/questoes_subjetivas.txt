@@ -1,1 +1,4 @@
+1 - O código imprime de 0 a 4, quando chega no número 5 apresenta-se um erro, pois está acessando um índice inválido do array.
 
+2 - O código cria um espaço para armazenar 5 contas, porém, atualmente elas não referenciam nada. Os objetos devem ser inicialmente instanciados e só depois atribuídos 
+às referências do array.
