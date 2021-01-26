@@ -1,5 +1,5 @@
-/*e. Avalie em uma classe de testes dois jogadores instanciados e inicializados através do construtor. Nessa classe, utilize o método de ataque de cada jogador e ao final,
-verifique qual jogador tem mais pontos.*/
+/*e. Avalie em uma classe de testes dois jogadores instanciados e inicializados através do construtor. Nessa classe, utilize o método de ataque de cada jogador e ao 
+final, verifique qual jogador tem mais pontos.*/
 
 public class TestaJogador {
     public static void main(String[] args) {
