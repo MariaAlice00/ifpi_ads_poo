@@ -10,7 +10,6 @@ public class Teste {
         Peixe piranha = new Peixe();
         Peixe dourado = new Peixe();
 
-
         animal[0] = gato;
         animal[1] = cachorro;
         animal[2] = vaca;
@@ -36,8 +35,7 @@ public class Teste {
 }
 
 /*
-c. Por que o array da classe Animal aceita também os descendentes na
-hierarquia? 
+c. Por que o array da classe Animal aceita também os descendentes na hierarquia? 
 
 Pelo conceito de herança onde Animal é a classe principal e Peixe e Bovino são suas subclasses e por isso elas também são da classe Animal.
 */
