@@ -9,4 +9,5 @@ public class Teste {
     }
 }
 
-/* O código não compila porque na classe B existem 2 métodos iguais, com mesmo nome e mesmo parâmetro, ou seja nenhum. Eles até poderiam ter mesmo nome, mas deveriam ter parâmetros diferentes, para evitar uma sobrecarga de métodos.*/
+/* O código não compila porque na classe B existem 2 métodos iguais, com mesmo nome e mesmo parâmetro, ou seja nenhum. Eles até poderiam ter mesmo nome, mas deveriam 
+ter parâmetros diferentes, para evitar uma sobrecarga de métodos.*/
