@@ -8,5 +8,3 @@ public class Teste {
         System.out.println(a.metodo1());
     }
 }
-
-/* Saída: metodo1, classe A. */
