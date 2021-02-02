@@ -33,7 +33,5 @@ public class Soma {
         finally {
 			System.out.println("Fim.");
 		}
-
 	}
-
 }
