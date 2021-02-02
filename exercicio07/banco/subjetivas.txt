@@ -1,0 +1,69 @@
+7. Após a alteração anterior, o método transferir também está “validado”? Por que? A solução ficou mais robusta? Justifique.
+
+O método transferir também está validado, por consequência da validação dos métodos sacar e depositados, e isso se aplica também a questão de todos terem ficado mais robustos.
+
+
+9. Pesquise na internet prós e contras de exceções checadas e não checadas e proponha um exemplo de cada uma. 
+
+A exceção checada obriga o desenvolvedor a tratá-la, isto é, usar umas das duas formas básicas de tratamento de exceção no Java: captura ou tratamento. Descendem de RuntimeException. Já a exceção não checada é o contrário, o tratamento se torna opcional e você trata apenas se quiser. Descendem de Exception.
+
+11. No exemplo acima, caso TipoExcecao2 herde de TipoExcecao1, o que ocorrerá?
+
+Ocorrerá um erro, pois se trata de dois tipos diferentes, funções distintas.
+
+12. Descreva e justifique o que acontece no método main abaixo:
+
+import javax.management.RuntimeErrorException;
+
+public class Teste {
+    public static void main(String[] args) {
+        try {
+            throw new RuntimeErrorException();
+        } catch (RuntimeErrorException e) {
+            try {
+                throw new RuntimeException();
+            } catch (untimeException e2) {
+                System.out.print("A");
+            }
+            System.out.print("B");
+        }
+        System.out.print("C");
+    }
+}
+
+Dentro de try é colocada uma exceção do tipo RuntimeException, e a mesma é citada no catch que vem em seguida. Dentro desse mesmo catch é colocada outra try com exceção também RuntimeException e catch que cita essa exceção e comanda para mostrar na tela a letra A. Após o segundo conjunto de try e catch, comanda para mostrar na tela a letra B. E após o primeiro conjunto de try e catch, comanda para mostrar na tela a letra C.
+
+
+13. Sobre exceções, responda:
+a. Comente os pontos falhos sobre as 3 alternativas de controle de erros
+explicadas em sala de aula;
+
+Alternativa 1: usando condicional if. O problema está na incerteza do sucesso ou não da operação.
+Alternativa 2: exibir mensagem de erro. O problema está que fica-se preso à interface, se fosse usado uma interface gráfica, a mensagem não seria notada, pois se iria olhar o prompt.
+Alternativa 3: retornar um código de erro. O problema está que temos que testar o valor de retorno sempre para saber o que houve; e quando o método já retorno valores, é difícil reservar códigos de erro que não se confundam com um possível valor calculado. O valor retornado não é intuitivo e carece de documentação para o entendimento.
+
+b. Por que o uso de exceções deixa o código mais confiável?
+
+Pois melhora a forma como os erros são tratados, torna o software capaz de lidar com formas de execução não esperadas, além de tornar o software mais robusto, logo, mais confiável.
+
+c. Você concorda que muitos “ifs/else” somem quando se usam exceções? Exemplifique;
+
+Sim, as exceções interrompem um comportamento quando ele está errado, é mais eficaz e ocupa menos espaço. 
+Exemplo:
+public Conta consultar(String numero) {
+	Conta c = null;
+	for (int i = 0; i < indice; i++) {
+		if (contas[i].getNumero().equals(numero)) {
+			c = contas[i];
+			break;
+			}
+		}
+
+	if (c == null) {
+		throw new AplicacaoException("Conta não encontrada.");
+		}
+
+	return c;
+}
+
+No exemplo retirado das questões iniciais, é possível ver que se não existir a conta irá ser aplicado a exceção. Em outros métodos que usam consultar, irão ser evitadas if/elses por conta disso.
