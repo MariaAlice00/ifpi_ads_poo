@@ -1,4 +1,4 @@
-package exercicio0809
+package exercicio0809;
 
 public interface FiguraGeometrica {
     public double calcularArea();
