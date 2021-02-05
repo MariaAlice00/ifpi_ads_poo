@@ -1,0 +1,12 @@
+1. Podemos instanciar classes abstratas? Justifique.
+
+Não podem ser instanciadas. Para ter um objeto de uma classe abstrata é necessário criar uma classe mais especializada herdando dela, e então instanciar essa nova classe.
+
+
+3. Se uma classe que herda de uma abstrata e não implementa os seus métodos, o que ocorre?
+
+Aparece a mensagem: "The type ClasseConcreta must implement the inherited abstract method ClasseAbstrata.somar()", ou seja, a ClasseConcreta deve implementar o método abstrato herdado de ClasseAbstrata, já que houve uma "declaração".
+
+6. Não podemos aplicar o operador new em FiguraGeometrica, mas por que então podemos dar new em FiguraGeometrica[10], por exemplo?
+
+Pois new FiguraGeometrica[10] está criando um array que pode conter objetos que herdam da classe abstrata FiguraGeometrica.
