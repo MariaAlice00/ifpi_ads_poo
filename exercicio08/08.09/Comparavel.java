@@ -1,4 +1,4 @@
-package exercicio0809;
+package exercicio08;
 
 public interface Comparavel{
     public int comparar(FiguraGeometrica fg);
