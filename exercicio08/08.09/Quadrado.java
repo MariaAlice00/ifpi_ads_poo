@@ -1,4 +1,4 @@
-package exercicio0809;
+package exercicio08;
 import java.lang.Math;
 
 public class Quadrado implements FiguraGeometrica, Comparavel {
