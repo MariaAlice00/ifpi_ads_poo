@@ -1,4 +1,4 @@
-package exercicio0809;
+package exercicio08;
 
 public class Retangulo implements FiguraGeometrica, Comparavel {
     private double base;
